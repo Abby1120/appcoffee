@@ -259,7 +259,7 @@ body {
     }
 
     .hero-section {
-      min-height: 1100px;
+      max-height: 800px;
       background: linear-gradient(180deg, black, transparent 1100px);
     }
 
@@ -267,6 +267,10 @@ body {
       max-width: 80%;
       margin-top: 25px;
       padding-left: 8%;
+    }
+
+    .mockup img {
+      max-width: 100%;
     }
   }
   
