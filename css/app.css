@@ -119,7 +119,7 @@ body {
 /* phone mock-up */
 .mockup img {
   max-width: 80%;
-  margin-bottom: 15%;
+  margin-bottom: 18%;
 }
 
 #about {
@@ -239,6 +239,11 @@ body {
     .hero-section {
       max-height: 432px;
     }
+    
+    .logox {
+      max-width: 50%;
+    }
+    
     .stats img {
       max-height: 90%;
     }
