@@ -236,6 +236,9 @@ body {
   }
 
   @media (max-width: 768px) {
+    .hero-section {
+      max-height: 432px;
+    }
     .stats img {
       max-height: 90%;
     }
