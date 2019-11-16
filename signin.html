@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+        <!-- login form -->
+        <form id="login" action="about.html" name="form" onsubmit="return validated()">
+            <div class="grid-x grid-padding-x align-center">
+              <div class="large-8 small-12 cell">
+              <h1 id="cupfindr">CUPFINDR</h1>
+            </div>
+            <div class="large-8 small-12 cell">
+              <label>
+                  <a class="login-box-social-button-google"><img src="images/googlebtn.png"></a>
+              </label>
+            </div>
+            <div class="large-8 small-12 cell">
+            <p class="or-divider"><span>or</span></p>
+          </div>
+              <div class="large-8 small-12 cell">
+              <label>Email
+              <input type="text" placeholder="Email" name="email">
+              <div id="email_error">Please use a valid email</div>
+              </label>
+            </div>
+      <div class="large-8 small-12 cell">
+        <label>Password
+          <input type="password" placeholder="Password" name="password">
+          <div id="pass_error">Password Incorrect</div>
+        </label>
+      </div>
+      <div class="large-8 small-12 cell">
+      <button type="submit" class="sign-in-form-button">Sign In</button>
+      </div>
+    </div>
+</form>
+</div>
+      
+    <!-- Footer -->
+    <div class="row">
+      <div class="column">
+        <p>placeholder</p>
+      </div>
+    </div>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
