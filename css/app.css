@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+/* Home Page */
 .hero-section {
   background-size: cover;
   /* height: 100vh;
@@ -12,16 +13,26 @@ body {
   text-align: center;
 }
 
+/* Sign-in Page */
 .signinpage {
-  height: auto;
+  height: 100vh;
   width: auto;
   background: url(../images/woodbackground.jpg);
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+  overflow: auto;
 }
-   
 
-/* Navbar Mouse over underline */
+.signinpage h3 {
+  margin-top: 2%;
+  font-weight: bold;
+  font-family: Viner Hand ITC;
+  text-shadow: 2px 2px 3px white;
+}
+  
+/* Nav Menu */
+
 .hover-underline-menu {
   /* width: 100%; */
   padding-left: 2%;
@@ -129,11 +140,11 @@ body {
   max-width: 70%;
   padding: 3%;
 }
-  /* login form */
+  /* login form on sign-in page*/
 
  #login {
-    margin: 0 30%;
-    background: rgba(109, 80, 27, 0.815);
+    margin: 2% 30%;
+    background: rgba(109, 80, 27, 0.959);
     padding-bottom: 2%;
     border-style: solid;
     border-color: #4b3428;
@@ -145,7 +156,7 @@ body {
     text-align: center;
     font-family: Plantagenet Cherokee;
     font-size: 3rem;
-    text-shadow: 2px 3px 8.82px rgba(172, 162, 26, 0.75);
+    text-shadow: 2px 3px 8.82px rgba(199, 187, 26, 0.932);
   }
 
   .login-box-social-button-google {
@@ -158,11 +169,6 @@ body {
   [data-whatinput='mouse'] .login-box-social-button-google {
     outline: 0;
   }
-
-  /* .login-box-social-button-google:hover, .login-box-social-button-google:focus {
-    background-color: #be3221;
-    color: #fefefe;
-  } */
 
   .or-divider {
     position: relative;
@@ -212,8 +218,8 @@ body {
   }
   
   .sign-in-form-button:hover {
-    background-color: #44c8ed;
-    border-color: #44c8ed;
+    background-color: rgba(199, 187, 26, 0.932);
+    border-color: rgba(199, 187, 26, 0.932);
   }
   
 /* Footer CSS Below Just a place holder until Database and Authentication set-up complete */
