@@ -13,4 +13,4 @@ Click sign-in button in upperright hand-corner.
 
 To submit sign in form use at least 9 characters in email space and 6 in password space, takes user to About.html for now. 
 
- 12/20 Finishing API and USER DB. Have finished Pages in Angular. Should have Angular front-end connected to API and Authorization by Friday 2/28/20. Just trying to get some Data Modeling right.
+2/20 Finishing API and USER DB. Have finished Pages in Angular. Should have Angular front-end connected to API and Authorization by Friday 2/28/20. Just trying to get some Data Modeling right.
